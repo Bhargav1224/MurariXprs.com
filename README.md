@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# MurariXprs.com 🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MurariXprs** is a E-commerce website , It provides different types of products for its users with good offers.
 
-## Available Scripts
+With my efforts and the technology stack, that I have learned so far in the masai school, I am able to build the front end application with high precision and quality.
 
-In the project directory, you can run:
+# Technology Stack Used 💻
 
-### `npm start`
+In this project we have used the following tech stack.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS: [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- JavaScript:[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- React:[React js](https://reactjs.org/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `npm test`
+## Libraries Used 🌟
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Images: [MurariXprs](https://murarixprs.vercel.app/)
+2. Icons:[Awesome Icon](https://www.w3schools.com/icons/fontawesome5_intro.asp)
+3. Fonts: [Google Fonts](https://fonts.google.com/)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to run the project 📑
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In this project I am able to achieve a near to perfect E-commerce application. As we do not want to overwhelm you, we haven't shared all the pages here.Please fork the repository and then use it on your own. If you want to collaborate with us on this project then please feel free to reach out to us.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You can also take the glimpse of our Project,just follow the below steps:
 
-### `npm run eject`
+    1.Copy the path of index.html and paste it your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    2.In browser you will land in the landing page just Register and login if you have signed up before or do the signup.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    3.Our website Provides users to make an order.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Snapshots 📷
 
-## Learn More
+1.Home Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ![Homepage](https://user-images.githubusercontent.com/77038785/131108784-207b9702-f264-4a9b-b546-62af7d1c0326.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. About
 
-### Code Splitting
+  ![about](https://user-images.githubusercontent.com/77038785/131107923-dc3732fd-64c6-424b-b9e5-8d7217f4a8f1.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. Mens
 
-### Analyzing the Bundle Size
+  ![mens](https://user-images.githubusercontent.com/77038785/131107963-dfc13a25-57f2-4cc3-80ee-9944b1f29b1d.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4.Womens
 
-### Making a Progressive Web App
+  ![womens](https://user-images.githubusercontent.com/77038785/131108012-257bc0bb-7809-47a8-9124-3ddc69052c6b.PNG)
+ 
+5.Music
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  ![music](https://user-images.githubusercontent.com/77038785/131108073-37fb99e6-8da0-4106-87ba-d938aff37d25.PNG)
 
-### Advanced Configuration
+6.IphoneStore
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  ![iphone](https://user-images.githubusercontent.com/77038785/131108102-6e4f295a-dfee-4787-be5a-013fd415cef7.PNG)
 
-### Deployment
+7.Cart
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  ![cart](https://user-images.githubusercontent.com/77038785/131108126-43894238-6d62-4657-bea4-1ed86c619ce1.PNG)
 
-### `npm run build` fails to minify
+8.Myorders
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ![myorders](https://user-images.githubusercontent.com/77038785/131108160-1e7a3887-79f2-42db-afeb-88418e9a54ae.PNG)
+
+
+<br>
+
+## Features ✨
+
+1. User can select type of products.
+2. User can filter based on rating and offers.
+3. User can pay online and order the products.
+
+<br>
+
+## Live 🎥
+
+[MurariXprs](https://murarixprs.vercel.app/)
+
+
