@@ -1,0 +1,28 @@
+.container {
+	width: 100%;
+	margin-top: 20px;
+	height: 600px;
+	/* border: 1px solid grey; */
+	float: left;
+}
+.aboutcontent {
+	height: 550px;
+	width: 31%;
+	float: left;
+	margin: 10px;
+	/* border: 1px solid red; */
+}
+.aboutcontent:hover {
+	box-shadow: 10px 10px 10px 10px rgb(207, 207, 207);
+}
+.image {
+	height: 50%;
+	width: 100%;
+}
+
+h3 {
+	color: rgb(66, 61, 61);
+	text-align: left;
+	font-weight: 700;
+	line-height: 30px;
+}

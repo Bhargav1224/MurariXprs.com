@@ -1,0 +1,178 @@
+.productname {
+	color: #03b1fc;
+	margin-top: -5px;
+}
+.procontainer {
+	border-radius: 10px;
+	width: 95%;
+	height: fit-content;
+	display: flex;
+	/* border: 1px solid grey; */
+	margin: auto;
+}
+.detials {
+	width: 40%;
+	height: 450px;
+	margin: 20px;
+	border-radius: 10px;
+	float: left;
+	/* border: 1px solid grey; */
+}
+.detials1 {
+	width: 60%;
+	height: 450px;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+	/* border: 1px solid grey; */
+}
+.detials > img {
+	width: 100%;
+	border-radius: 10px;
+	height: 100%;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+.rating {
+	width: 50px;
+	height: 40px;
+	/* border: 1px solid grey; */
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+	float: left;
+}
+.review {
+	width: 450px;
+	height: 50px;
+	/* border: 1px solid grey; */
+	margin-left: 10px;
+	float: left;
+}
+.starrating1 {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin-top: 3px;
+}
+.starrating {
+	font-size: 20px;
+	margin-top: 3px;
+}
+.description {
+	width: 70%;
+	clear: both;
+	height: fit-content;
+	margin-top: 50px;
+	/* border: 1px solid grey; */
+}
+.price {
+	color: #03b1fc;
+	margin-top: 10px;
+	display: flex;
+}
+.price2 {
+	color: black;
+	margin-top: 1px;
+}
+.cartbutton {
+	width: 100%;
+	font-size: 20px;
+	cursor: pointer;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+.images {
+	width: 200px;
+	transition: transform 0.5s ease;
+	margin-left: 20px;
+	height: 200px;
+	box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+td {
+	font-size: 20px;
+}
+th {
+	color: #095c80;
+	font-size: 30px;
+}
+
+tr,
+td,
+th,
+table {
+	width: 1200px;
+	height: fit-content;
+	/* border: 1px solid grey; */
+}
+td > img {
+	margin-left: 20px;
+}
+
+.delicon > i {
+	/* background-color: rgb(4, 37, 37); */
+	font-size: 25px;
+
+	color: orangered;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: transform 0.5s ease;
+}
+.btnbox {
+	margin-top: 40px;
+	width: fit-content;
+	height: 35px;
+	margin: auto;
+}
+
+.tabledata {
+	text-align: center;
+}
+.buttons {
+	width: 120px;
+	height: 50px;
+	margin-left: 90px;
+	/* border: 1px solid grey; */
+}
+.buttons > button {
+	margin: 3px;
+	border: none;
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+	outline: none;
+
+	cursor: pointer;
+}
+button:hover {
+	border: 1px solid grey;
+}
+.imagebox {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	/* border: 1px solid gray; */
+}
+.images:hover {
+	opacity: 1;
+	cursor: pointer;
+	transform: scale(0.9);
+}
+
+.paybtn {
+	width: fit-content;
+	height: fit-content;
+	/* border: 1px solid red; */
+	margin: auto;
+	margin-top: 30px;
+}
+.paybtn > button {
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: black;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}

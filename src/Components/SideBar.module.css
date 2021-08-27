@@ -1,0 +1,26 @@
+.conatiner {
+	width: 300px;
+	height: 900px;
+	margin-top: 200px;
+	/* border: 1px solid grey; */
+}
+.miniboxes {
+	width: 250px;
+	height: 40%;
+	margin: 10px;
+	/* border: 1px solid grey; */
+}
+.conatiner > h1 {
+	text-align: center;
+	color: #03b1fc;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
+.check {
+	width: 20px;
+	height: 15px;
+}
+label {
+	margin-left: 20px;
+	margin-top: -2px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
