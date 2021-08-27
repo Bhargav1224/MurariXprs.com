@@ -1,8 +1,9 @@
 import React, { createContext, useState } from "react";
+import { loadData } from "../Utlis/localstorage";
 export const AuthContext = createContext();
 export const AuthContextProvider = ({ children }) => {
 	const [isAuth, setIsAuth] = useState(false);
-	const [murari, setMurari] = useState([]);
+	const [murari, setMurari] = useState(loadData("murari")||[]);
 	const [indData, setIndData] = useState([]);
 	const [isLoading, setLoading] = useState(false);
 	const [isError, setIsError] = useState(false);

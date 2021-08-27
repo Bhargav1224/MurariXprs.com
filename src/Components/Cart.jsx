@@ -3,7 +3,7 @@ import React, { useContext, useEffect } from "react";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import styles from "./AddCart.module.css";
 import StripeCheckout from "react-stripe-checkout";
-// import { loadData } from "../Utlis/localstorage";
+import { saveData } from "../Utlis/localstorage";
 
 export const Cart = () => {
 	const { murari, setMurari } = useContext(AuthContext);
@@ -23,6 +23,7 @@ export const Cart = () => {
 			return item;
 		});
 		setMurari(qnatity);
+		saveData("murari", qnatity);
 		// console.log(id);
 	};
 
@@ -35,7 +36,7 @@ export const Cart = () => {
 	
 
 	// var muraridata = loadData("murari");
-	// // console.log(muraridata);
+	// console.log(muraridata);
 
 	useEffect(() => {
 		handleQuantity();

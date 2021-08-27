@@ -4,7 +4,7 @@ import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import axios from "axios";
 import styles from "./AddCart.module.css";
 import { LoaderSpinner } from "./Loader";
-// import { saveData } from "../Utlis/localstorage";
+import { saveData } from "../Utlis/localstorage";
 
 export const AddCart = (children) => {
 	const { id } = useParams();
@@ -45,7 +45,7 @@ export const AddCart = (children) => {
 
 	const handleAddCart = () => {
 		setMurari([...murari, { ...indData, qty: 1 }]);
-		// saveData("murari", murari);
+		saveData("murari", murari);
 
 	};
 

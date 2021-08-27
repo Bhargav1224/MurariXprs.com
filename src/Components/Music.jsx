@@ -264,9 +264,7 @@ export const Music = () => {
 												</p>
 											</div>
 											<div className={styles.fav}>
-												<i style={{ fontSize: "24px" }} className="far">
-													&#xf004;
-												</i>
+											&#x2764;
 											</div>
 										</div>
 										<img src={item.image_url} alt="pics.logo" />

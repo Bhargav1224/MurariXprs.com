@@ -55,7 +55,7 @@ export const Womens = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
-// eslint-disable-next-line
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.offers >= offervalue) {
 					return item;
@@ -96,7 +96,7 @@ export const Womens = () => {
 	}, []);
 
 	return isLoading ? (
-		<LoaderSpinner/>
+		<LoaderSpinner />
 	) : isError ? (
 		<h1 style={{ color: "red", textAlign: "center" }}>
 			404 Something went wroung
@@ -265,11 +265,7 @@ export const Womens = () => {
 													{item.offers}% off
 												</p>
 											</div>
-											<div className={styles.fav}>
-												<i style={{ fontSize: "24px" }} className="far">
-													&#xf004;
-												</i>
-											</div>
+											<div className={styles.fav}>&#x2764;</div>
 										</div>
 										<img src={item.image_url} alt="pics.logo" />
 										<div className={styles.producont}>
