@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useState } from "react";
-import { SideBar } from "./SideBar";
+// import { SideBar } from "./SideBar";
 import axios from "axios";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./Mens.module.css";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import { FooterPage } from "./FooterPage";
-import { AddCart } from "./AddCart";
-import FavoriteIcon from "@material-ui/icons/Favorite";
+// import { AddCart } from "./AddCart";
+// import FavoriteIcon from "@material-ui/icons/Favorite";
 
 //https://bhargav1224.herokuapp.com/MurariProducts?type=men/women/music/iphone
 import style from "./SideBar.module.css";
@@ -17,16 +17,13 @@ export const Mens = () => {
 	const [menData, setMenData] = useState([]);
 	const [filter, setFilter] = useState([]);
 
-	const [fav, setFav] = useState(false);
+	// const [fav, setFav] = useState(false);
 
 	const {
 		isLoading,
 		setLoading,
-		murari,
 		isError,
-		isfav,
-		setMurari,
-		setIsFav,
+		
 		setIsError,
 		setIndData,
 	} = useContext(AuthContext);
@@ -69,6 +66,7 @@ export const Mens = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.offers >= offervalue) {
 					return item;
@@ -89,6 +87,7 @@ export const Mens = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.star >= offervalue) {
 					return item;
@@ -148,6 +147,7 @@ export const Mens = () => {
 
 	useEffect(() => {
 		FetchMendata();
+		// eslint-disable-next-line
 	}, []);
 
 	return isLoading ? (

@@ -1,9 +1,9 @@
-import React, { useContext, useState, useEffect } from "react";
-import { useHistory } from "react-router";
+import React, { useContext, useEffect } from "react";
+// import { useHistory } from "react-router";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import styles from "./AddCart.module.css";
 import StripeCheckout from "react-stripe-checkout";
-import { loadData, saveData } from "../Utlis/localstorage";
+// import { loadData } from "../Utlis/localstorage";
 
 export const Cart = () => {
 	const { murari, setMurari } = useContext(AuthContext);
@@ -26,19 +26,20 @@ export const Cart = () => {
 		// console.log(id);
 	};
 
-	const history = useHistory();
+	// const history = useHistory();
 
-	const Checkout = () => {
-		history.push("/myorders");
-	};
+	// const Checkout = () => {
+	// 	history.push("/myorders");
+	// };
 
 	
 
-	var muraridata = loadData("murari");
-	// console.log(muraridata);
+	// var muraridata = loadData("murari");
+	// // console.log(muraridata);
 
 	useEffect(() => {
 		handleQuantity();
+		// eslint-disable-next-line
 	}, []);
 
 	return (

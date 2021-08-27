@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
-import { myFunction } from "./droupdown";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+// import { myFunction } from "./droupdown";
+ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 export const Navbar = () => {
 	return (
@@ -35,9 +35,10 @@ export const Navbar = () => {
 						Contact-Us
 					</Link>
 					<Link className={styles.linkscart} to="/cart">
-						<i style={{ fontSize: "24px" }} className="fas">
+						{/* <i style={{ fontSize: "24px" }} className="fas">
 							&#xf217;
-						</i>
+						</i> */}
+						<ShoppingCartIcon/>
 					</Link>
 
 					<Link className={styles.links} to="/myorders">
@@ -55,6 +56,7 @@ export const Navbar = () => {
 					<Link
 						className="dropdown"
 						style={{ marginLeft: "-3px", margintop: "-5px" }}
+						// eslint-disable-next-line
 						className={styles.links}
 						to="/login"
 					>

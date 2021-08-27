@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { SideBar } from "./SideBar";
+// import { SideBar } from "./SideBar";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./Mens.module.css";
@@ -55,6 +55,7 @@ export const Womens = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.offers >= offervalue) {
 					return item;
@@ -75,6 +76,7 @@ export const Womens = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.star >= offervalue) {
 					return item;
@@ -90,6 +92,7 @@ export const Womens = () => {
 
 	useEffect(() => {
 		FetchWonendata();
+		// eslint-disable-next-line
 	}, []);
 
 	return isLoading ? (

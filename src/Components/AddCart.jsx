@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import axios from "axios";
 import styles from "./AddCart.module.css";
 import { LoaderSpinner } from "./Loader";
-import { loadData, saveData } from "../Utlis/localstorage";
+// import { saveData } from "../Utlis/localstorage";
 
 export const AddCart = (children) => {
 	const { id } = useParams();
@@ -21,6 +21,7 @@ export const AddCart = (children) => {
 
 	useEffect(() => {
 		Indiviualdata();
+		// eslint-disable-next-line
 	}, []);
 	const Indiviualdata = () => {
 		setLoading(true);
@@ -44,7 +45,7 @@ export const AddCart = (children) => {
 
 	const handleAddCart = () => {
 		setMurari([...murari, { ...indData, qty: 1 }]);
-		saveData("murari", murari);
+		// saveData("murari", murari);
 
 	};
 

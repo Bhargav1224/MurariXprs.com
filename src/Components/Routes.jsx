@@ -11,9 +11,9 @@ import { Mens } from "./Mens";
 import { Music } from "./Music";
 import { Myorder } from "./Myorder";
 import { Navbar } from "./Navbar";
-import { SideBar } from "./SideBar";
+// import { SideBar } from "./SideBar";
 import { Signup } from "./Signup";
-import { WishList } from "./WishList";
+// import { WishList } from "./WishList";
 import { Womens } from "./Womens";
 
 export const Routes = () => {

@@ -2,13 +2,13 @@ import React, { useContext } from "react";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
 import styles from "./MyOrder.module.css";
 import style from "./AddCart.module.css";
-import { loadData } from "../Utlis/localstorage";
+// import { loadData } from "../Utlis/localstorage";
 
 export const Myorder = () => {
 	const { murari } = useContext(AuthContext);
 	// console.log(murari);
 
-	let muraridata = loadData("murari");
+	// let muraridata = loadData("murari");
 	return (
 		<div>
 			<h1 className={styles.myorder}>My Orders</h1>

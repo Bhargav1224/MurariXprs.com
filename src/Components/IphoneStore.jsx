@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import { SideBar } from "./SideBar";
+// import { SideBar } from "./SideBar";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import styles from "./Mens.module.css";
@@ -52,6 +52,7 @@ export const IphoneStore = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.offers >= offervalue) {
 					return item;
@@ -72,6 +73,7 @@ export const IphoneStore = () => {
 		// setFilter(status, e.target.value);
 		let offervalue = e.target.value;
 		if (status) {
+			// eslint-disable-next-line
 			let filter = menData.filter((item) => {
 				if (item.star >= offervalue) {
 					return item;
@@ -87,6 +89,7 @@ export const IphoneStore = () => {
 
 	useEffect(() => {
 		Fetchiphonedata();
+		// eslint-disable-next-line
 	}, []);
 
 	return isLoading ? (

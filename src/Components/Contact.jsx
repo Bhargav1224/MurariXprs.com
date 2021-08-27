@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import styles from "./Contact.module.css";
 import { useHistory } from "react-router";
-
+// eslint-disable-next-line
 const contactdata = {
 	email: "",
 	name: "",
 	message: "",
 };
-export const Contact = (contactdata) => {
+export const Contact = () => {
 	const [contact, setContact] = useState(contactdata);
 	const { name, email, message } = contact;
 	const [contData, setContData] = useState([]);

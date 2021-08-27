@@ -2,12 +2,11 @@ import React, { useContext, useState } from "react";
 import styles from "./Contact.module.css";
 import { Redirect } from "react-router";
 import { AuthContext } from "../AuthContextProvider/AuthContextProvider";
-
 const init = {
 	email: "",
 	password: "",
 };
-export const Login = (init) => {
+export const Login = () => {
 	const [loginData, setloginData] = useState(init);
 	const { email, password } = loginData;
 	const { isAuth, setIsAuth } = useContext(AuthContext);
